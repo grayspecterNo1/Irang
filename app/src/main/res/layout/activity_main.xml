@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff6e63"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="이미지가 열리지 않습니다."
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/irang_logo"
+        app:layout_constraintBottom_toTopOf="@+id/info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <ImageButton
+        android:id="@+id/info"
+        android:layout_width="0dp"
+        android:layout_height="303dp"
+        android:layout_marginBottom="266dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="이미지가 열리지 않습니다."
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_info_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home" />
+
+    <ImageButton
+        android:id="@+id/fun"
+        android:layout_width="207dp"
+        android:layout_height="133dp"
+        android:contentDescription="이미지가 열리지 않습니다."
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <ImageButton
+        android:id="@+id/learn"
+        android:layout_width="207dp"
+        android:layout_height="133dp"
+        android:contentDescription="이미지가 열리지 않습니다."
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/learn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <ImageButton
+        android:id="@+id/eat"
+        android:layout_width="207dp"
+        android:layout_height="133dp"
+        android:contentDescription="이미지가 열리지 않습니다."
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/eat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/course"
+        android:layout_width="207dp"
+        android:layout_height="133dp"
+        android:contentDescription="이미지가 열리지 않습니다."
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/course"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

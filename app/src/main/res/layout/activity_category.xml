@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF6E63">
+
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="이미지가 열리지 않습니다."
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/irang_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/nowon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="이미지가 열리지 않습니다."
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nowonx"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+
+    <ImageButton
+        android:id="@+id/mapo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="이미지가 열리지 않습니다."
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mapox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+
+    <ImageButton
+        android:id="@+id/eunp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="이미지가 열리지 않습니다."
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/eunpx"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <ImageButton
+        android:id="@+id/onnuri"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="이미지가 열리지 않습니다."
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/onnurix"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+
+</android.support.constraint.ConstraintLayout>
